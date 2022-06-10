@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import { faker } from "@faker-js/faker";
 import { useEffect, useState } from "react";
