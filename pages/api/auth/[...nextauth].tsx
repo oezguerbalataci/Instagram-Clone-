@@ -10,11 +10,11 @@ export default NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],
+  secret: "M1xtvleoIqX644iBUTPDBgW2tJjzHKpKQyMEtiaxKLI=",
 
   pages: {
     signIn: "/auth/signin",
   },
-  secret: process.env.NEXT_AUTH_SECRET,
 
   callbacks: {
     async session({ session, token, user }) {
